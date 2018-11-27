@@ -4,3 +4,8 @@
   border-left: 0;
   border-right: 0;
 }
+:local(.genderSelect) {
+  padding: .85em;
+  background-color: snow;
+}
+
