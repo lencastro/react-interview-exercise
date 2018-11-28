@@ -1,5 +1,5 @@
-import * as types from '../constants/ActionTypes';
-import pagination from './pagination';
+import * as types from '../../constants/ActionTypes';
+import pagination from '.././pagination';
 
 it('should return new state based on the payload', () => {
 

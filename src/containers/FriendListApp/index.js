@@ -18,10 +18,11 @@ let getFriendsList = (list, pagination) => {
   return list.slice(getStartPos(pagination), getEndPos(pagination));
 }
 
-class FriendListApp extends Component {
+export class FriendListApp extends Component {
 
 
   render () {
+    
     let { allFriendsLength, friendsToRender, pageNumber, recordsPerPage } = this.props;
 
     const pageInfo = { allFriendsLength, pageNumber, recordsPerPage }

@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import classnames from 'classnames';
 import styles from './style.css';
 
-class AddFriendInput extends Component {
+export class AddFriendInput extends Component {
 
   render () {
     let genderOptions = ["Female", "Male", "Others"].map((gender, idx)=>{

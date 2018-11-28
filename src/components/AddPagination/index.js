@@ -2,7 +2,7 @@ import React, { Component, PropTypes} from 'react';
 import { connect } from 'react-redux';
 import classnames from 'classnames';
 
-class AddPagination extends Component {
+export class AddPagination extends Component {
 
   static defaultProps = {
     defaultPageNumber: 1,

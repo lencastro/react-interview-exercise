@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import styles from './style.css';
 import FriendListItem from '../FriendListItem';
 
-class FriendList extends Component {
+export class FriendList extends Component {
   
   componentWillReceiveProps(props){
     const  { actions : { showPage } , info, friends }  = props;

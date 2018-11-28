@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import classnames from 'classnames';
 import styles from './style.css';
 
-class FriendListItem extends Component {
+export class FriendListItem extends Component {
 
   loadGenderIcon = (gender) => {
     if (!gender.length) { return null; }

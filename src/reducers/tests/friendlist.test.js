@@ -1,5 +1,5 @@
-import * as types from '../constants/ActionTypes';
-import friends from './friendlist';
+import * as types from '../../constants/ActionTypes';
+import friends from '../friendlist';
 
 it('should add a friend at the end of the array', () => {
 
